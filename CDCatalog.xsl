@@ -12,7 +12,7 @@
                         <th>Country</th>
                         <th>Company</th>
                         <th>Price</th>
-                        <th>Yeaq</th>
+                        <th>Year</th>
                     </tr>
                     <xsl:for-each select="catalog/cd">
                         <xsl:sort select="artist" />
